@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100vw;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black
+}
+
+.navbar {
+    width: 100vw;
+    height: 0vh;
+    color: rgb(238, 238, 238);
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+ul li {
+    margin-right: 22px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+    font-size: 19.5px;
+}
+
+/* Home Section */
+#home {
+    height: 51vh;
+    max-width: 100vw;
+    background-image: url(../images/momos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home h1 {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding-top: 48px;
+    font-size: 3rem;
+}
+
+#home p {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Services Section */
+
+#services {
+    height: 60vh;
+    max-width: 100vw;
+    color: rgb(238, 238, 238);
+}
+
+#services h1 {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 31px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Services Box */
+.box .box-img{
+    height: 208px;
+    width: 166px;
+    margin-left: 10px;
+}
+
+.box {
+    background-color: white;
+    margin-left: 100px;
+    width: 16vw;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.box1 h2, 
+.box1 p {
+    color: #ed9121 !important;
+}
+
+.box2 h2, 
+.box2 p {
+    color: #D1D0B2 !important;
+}
+
+.box3 h2, 
+.box3 p {
+    color: #3E6990 !important;
+}
+
+.box h2, 
+.box p {
+    color: rgb(238, 238, 238);
+}
+
+/* Contact Form */
+
+.ctch {
+    letter-spacing: 1px;
+}
+
+form input {
+    margin-top: 21px;
+    width: 14vw;
+    padding: 5px 5px;
+}
+
+form label {
+    margin-right: 17px;
+}
+
+/* Button */
+.submit {
+    background: #3E6990;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -59vh;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    left: 45vw;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Footer */
+.footer{
+    background-color: #3E6990;
+    width: 100vw;
+    height: auto;
+    padding: 12px 12px;
+}
+
+.footer p {
+    text-align: center;
+}
